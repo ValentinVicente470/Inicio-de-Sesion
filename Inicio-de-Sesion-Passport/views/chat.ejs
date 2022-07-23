@@ -1,0 +1,29 @@
+
+    <!-- ------------------------------------CHAT-------------------------------------------------------- -->
+    <div class="all" >
+
+        <div class="titulo_chat">
+            <h1>Chat</h1>
+        </div>
+
+        <div>
+
+            <form onsubmit="return addMessage(this);">
+
+                <div class="Chat_mensajes" id="messages"> </div>
+
+                <input type="email" class="email" id="username" value="<%= datos.email %>" placeholder="Ingresar Gmail" required>
+
+                <input type="text" class="texto" id="text"  placeholder="Escribe tu Mensaje" required>
+
+                <input type="submit" class="btn_Chat"  id="submit" value="Enviar"> 
+
+                
+                <div class="margen_btn_Chat"> </div>
+                
+
+            </form>
+
+        </div>
+
+    </div>

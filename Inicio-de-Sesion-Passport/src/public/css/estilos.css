@@ -1,0 +1,326 @@
+/* ------------------------------------Todo Productos---------------------- */
+
+.margen_Logout{
+    margin-top: 25px;
+}
+
+.btn_Logout{
+    background:rgb(144, 119, 195) ;
+    color: #000000;
+    border:none;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 20PX 0 3% 5%;
+    transition: ease all 0.3s;
+    
+}
+
+.btn_Logout:hover{
+    border-radius: 60px;
+    background:rgb(110, 52, 225);
+    text-decoration: none;
+    color: #000000;
+}
+
+.titulo{
+    font-family: 'Lora', serif;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.inputs input[type="text"],
+.inputs input[type="number"]{
+    background: rgb(144, 119, 195);
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.inputs input[type="submit"]{
+    margin: 1% 45% 4% 45%;
+}
+
+.inputs input::placeholder{
+    color:rgb(0, 0, 0);
+}
+
+.inputs{
+    flex-direction: column;
+}
+
+.flex__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:20px 0;
+}
+
+.btn_agregar{
+    background:rgb(144, 119, 195) ;
+    color: #000000;
+    border:none;
+    border-radius: 10px;
+    padding: 8px;
+    transition: ease all 0.3s;
+}
+
+.btn_agregar:hover{
+    border-radius: 60px;
+    background:rgb(110, 52, 225);
+}
+
+.btn_agregarMail{
+    background:rgb(144, 119, 195) ;
+    color: #000000;
+    border:none;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 20PX 0 3% 5%;
+    transition: ease all 0.3s;
+}
+
+.btn_agregarMail:hover{
+    border-radius: 60px;
+    background:rgb(110, 52, 225);
+}
+
+.tabla_prods{
+    width: 70%;
+    height: 55vh;
+    overflow-y: scroll;
+    margin:0px 15% 0px 15%;
+    background: rgb(144, 119, 195);
+}
+
+.tabla_prods::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(96, 47, 195);
+
+}
+
+.tabla_prods::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+.tabla_prods::-webkit-scrollbar-thumb{
+    border-radius: 10px 0px 0px 10px;
+    background-color: #33045c;
+    
+}
+
+.tabla_2 {
+    font-size: 15px;
+    font-weight:normal;
+    border: none;
+    width: 100%;
+    background-color: rgb(144, 119, 195);
+}
+
+.tabla_2 td, .tabla_2 th {
+    text-align:left;
+    padding:10px ;
+}
+
+.tabla_2 td {
+    font-size: 15px;
+}
+
+
+.tabla_2 thead th {
+    font-family: 'Lora', serif;
+    color: #000000;
+    background: rgb(96, 47, 195);
+}
+
+thead tr th { 
+    position: sticky;
+    top: 0;
+}
+
+/* ------------------------------------Todo Chat--------------------------- */
+.all{
+    height: 63vh;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 15%;
+}
+
+.titulo_chat{
+    font-family: 'Lora', serif;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.mail_chat{
+    font-family: 'Lora', serif;
+    padding-top: 3px;
+    color: rgb(44, 47, 150);
+    font-size: 18px;
+    margin-left: 10px;
+    letter-spacing: -1.5px;
+}
+
+.text_chat{
+    font-family: 'Lora', serif;
+    padding-top: 3px;
+    color: rgb(106, 1, 120);
+    font-size: 20px;
+   text-align: left;
+}
+
+.hora_chat{
+    font-family: 'Lora', serif;
+    padding-top: 3px;
+    color:  rgb(44, 47, 150);
+    font-size: 12px;
+    margin-left: 10px;
+    text-align: right;
+    letter-spacing: -1px;
+
+}
+
+.email{
+    width: 20%;
+    height: 35px;
+    padding: 10px;
+    margin: 20px 0px 3px 0px;
+    background: rgb(144, 119, 195);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.email::placeholder{
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+
+.texto{
+    width: 60%;
+    height: 35px;
+    padding: 10px;
+    margin: 20px 0px 3px 0px;
+    background: rgb(144, 119, 195);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.texto::placeholder{
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+
+.Chat_mensajes{
+    width: 100%;
+    height: 63vh;
+    background: rgb(144, 119, 195);
+    overflow-y: scroll;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+.Chat_mensajes::-webkit-scrollbar {
+    width: 12px;
+}
+  
+.Chat_mensajes::-webkit-scrollbar-track {
+    background:rgb(144, 119, 195);
+    border-radius: 5px;
+}
+  
+.Chat_mensajes::-webkit-scrollbar-thumb {
+    background-color: #33045c;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.Cont_todo{
+    padding: 5px 0px 5px 10px;
+}
+
+.Usuario_mensj{
+    font-size: 15px;
+    color: #33045c;
+    font-weight:700;
+}
+
+.Usuario_fyh{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.Enviar_mensj{
+    outline:none;
+    margin: 10px 0px 10px 0px;
+    width: 88%;
+    background:rgb(144, 119, 195) ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Enviar_mensj::placeholder{
+    color: #000000;
+}
+
+.margen_btn_Chat{
+    margin: 25px 0px 25px 0px;
+    padding-bottom: 20px;
+    
+}
+
+.btn_Chat{
+    width: 18%;
+    background:rgb(144, 119, 195) ;
+    color: #000000;
+    border:none;
+    padding: 8px;
+    transition: ease all 0.3s;
+    border-radius: 10px;
+}
+
+.btn_Chat:hover{
+    border-radius: 60px;
+    background:rgb(110, 52, 225);
+}
+
+.datos__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 4%;
+}
+
+
+/* ------------------------------------------------------------------------ */
+body::-webkit-scrollbar{
+    width: 20px;
+    background-color:transparent;
+    z-index: 8;
+}
+
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 20px 0px 0px 20px;
+    background-color: #33045c;
+}
+
+
+
+
+
+
+

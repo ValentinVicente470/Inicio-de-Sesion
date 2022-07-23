@@ -1,0 +1,66 @@
+<!-- -----------------------------------AGREGAR-PRODUCTOS-------------------------------------------------- -->
+<div>
+
+    <div>
+
+        <div class="titulo">
+
+            <h1> Ingrese Producto </h1>
+
+        </div>
+
+        <form onsubmit="return addProduct(this);">
+
+            <div class="inputs">
+
+                <input type="text" name="name" id="name" placeholder="Ingrese nombre de producto">
+                <input  type="number" name="price" id="price" placeholder="Ingrese precio de producto">     
+                <input type="text" name="description" id="description" placeholder="Ingrese descripcion de producto">
+                <input type="number" name="stock" id="stock" placeholder="Ingrese stock del producto">
+                <input type="text" name="foto" id="thumbnail" placeholder="Ingrese link de imagen del producto">   
+
+                <div class="flex__container">
+
+                    <div> <input class="btn_agregar" type="submit"  value="Agregar" id="btn"> </div> 
+
+                </div>
+
+            </div>
+            
+        </form>
+    
+    </div>
+
+    <div class="tabla_prods">
+
+        <table class="tabla_2">
+
+            <div >
+
+                <thead>
+
+                    <tr> 
+
+                        <th> Nombre </th>
+                        <th> Precio </th>
+                        <th> Descripcion </th>
+                        <th> Stock </th>
+                        <th> Foto </th> 
+                        <th> ID </th>
+                        <th> Acciones </th>
+
+
+                    </tr>
+
+                </thead>
+
+            </div>
+
+            <tbody id="product"> </tbody>
+
+        </table>
+
+    </div>
+        
+    
+</div>
